@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Figtree";
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+.second-container {
+    margin: 0 auto;
+    width: 380px;
+    height: 600px;
+    margin-top: 10rem;
+    padding: 1.4rem;
+    padding-top: .01rem;
+    background: hsl(00, 00%, 100%);
+    border-radius: .3rem;
+    border: 2px solid black;
+    box-shadow: 50px 10px 50px rgba(0, 0, 0, 10);
+}
+
+img {
+    margin-top: 1.6rem;
+    border-radius: .3rem;
+}
+
+h3 {
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 700;
+    display: block;
+    width: 7rem;
+    padding: .3rem .8rem;
+    margin-top: 1.5rem;
+    border-radius: .2rem;
+}
+
+.p-date{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-shadow: 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.5); 
+}
+
+.p-notes {
+    color: hsl(0, 0%, 42%);
+    font-weight: 600;
+    margin-top: 1rem;
+    opacity: .7;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer p {
+    padding-top: 2rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-shadow: 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.5); 
+}
+
