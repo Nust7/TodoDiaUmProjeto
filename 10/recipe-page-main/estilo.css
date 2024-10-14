@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Young Serif";
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: hsl(30, 18%, 87%);
+    border: 2px solid red;
+}
+.container {
+    text-align: center; justify-content: center; align-items: center;
+    background-color: white;
+    width: 42%;
+    margin: 0 auto;
+    height: 100%;
+    margin-top: 5rem;
+    border-radius: .5rem;
+}
+
+.omelette {
+    width: 50rem;
+    border-radius: .5rem;
+    padding-top: 2.5rem;
+}
+
+.box1h1 {
+    font-size: 3rem;
+    text-align: left;
+    padding-left: 2.8rem;
+    padding-top: 1.3rem;
+    font-family: "Young Serif";
+    font-weight: 400;
+}
+
+.box1p1 {
+    color: hsl(30, 10%, 34%);
+    font-weight: 500;
+    margin-left: 2.8rem;
+    padding-top: 1.2rem;
+    width: 45rem;
+    text-align: left;
+}
+
+.container-preparation { 
+        background-color: #fdf1f1;
+        width: 90%;
+        border-radius: 8px;
+        padding-top: 2rem;
+        margin-top: 2rem;
+        color: #4d004d;
+        font-weight: 400;
+        margin-left: 2.8rem;
+        height: 12rem;
+}
+
+.container-preparation ul, li, h1 {
+    text-align: left;
+}
+.container-preparation h1 {
+    margin: 0;
+    font-size: 23px;
+    color: #99004d;
+    padding-left: 2rem;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: "Outfit";
+}
+
+.container-preparation ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-family: "Outfit";
+}
+
+.container-preparation li {
+    margin-bottom: 8px;
+    padding-top: .2rem;
+    margin-top: .5rem;
+    padding-left: 3rem;
+    font-family: "Outfit";
+}
+
+strong {
+    font-family: "Outfit";
+}
+
+.container-preparation li::before {
+    content: "•";
+    font-size: 1.2rem;
+    margin-right: 2rem;
+    color: #99004d;
+}
+
+.ingredients-container ul {
+    list-style-type: none;
+    margin-left: 3rem;
+} 
+
+.ingredients-container h3 {
+    color: hsl(14, 45%, 36%);
+    text-align: left;
+    margin-bottom: 8px;
+    padding-top: .2rem;
+    margin-top: .5rem;
+    padding-left: 3rem;
+    font-size: 2rem;
+    font-weight: 500;
+   
+}
+.ingredients-container li {
+    font-family: "Outfit";
+    font-weight: 500;
+    color: hsl(30, 10%, 34%);
+}
+.ingredients-container li::before {
+    content: "•";
+    font-size: 1.2rem;
+    margin-right: 2rem;
+    color: #99004d;
+}
+.instruction-container h3{ 
+    color: hsl(14, 45%, 36%);
+    text-align: left;
+    margin-bottom: 8px;
+    padding-top: .2rem;
+    margin-top: .5rem;
+    padding-left: 3rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.instruction-container ol {
+    margin: .5rem 3rem;
+    height: 22rem;
+}
+
+.instruction-container li {
+    padding-top: 1.4rem;
+    font-family: "Outfit";
+    color: hsl(30, 10%, 34%);
+}
+
+.instruction-container strong {
+    font-weight: 600;
+}
+
+.instruction-container ol li::before {
+    content: counter(item) ". ";
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+
+.instruction-container ol li {
+    list-style-type: none;
+    counter-increment: item;
+    padding-left: 40px; 
+    position: relative; 
+}
+
+.borda-bottom {
+    width: 95%;
+    position: relative;
+    border: .01rem solid;
+    bottom: 100px;
+    margin: 0 auto;
+    opacity: .1;
+    color:hsl(30, 10%, 34%) ;
+}
+hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 20px 0; 
+}
+
+.container-nutrition {
+    color: hsl(14, 45%, 36%);
+    text-align: left;
+    margin-bottom: 8px;
+    padding-top: .2rem;
+    margin-top: .5rem;
+    padding-left: 3rem;
+    font-size: 2rem;
+    font-weight: 500;
+    height: 22rem;
+}
+
+.container-nutrition p {
+    color: hsl(30, 10%, 34%);
+    font-size: 18px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: "outfit";
+}
+
+.container-nutrition ul {
+    list-style-type: none;
+    padding: 0; 
+    width: 200px;
+    margin: 0 auto;
+}
+
+.container-nutrition li {
+    display: flex;
+    justify-content: space-around; 
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
